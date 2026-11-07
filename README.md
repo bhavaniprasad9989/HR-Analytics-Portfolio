@@ -107,10 +107,6 @@ The workbook `Excel_HR_Analytics_Final.xlsx` contains five worksheets:
 - Sorting and grouping
 - Charts and dashboard reporting
 
-## Workbook
-
-[Download Excel HR Analytics Workbook](./Excel_HR_Analytics_Final.xlsx)
-
 ---
 
 # 2. SQL – HR Data Analysis
@@ -188,10 +184,6 @@ The SQL module focuses on combining employee information, creating a consolidate
 - Grouping and Filtering
 - KPI Calculations
 
-## SQL Project File
-
-[Download SQL HR Analytics File](./SQL_HR_Analytics.sql)
-
 ---
 
 # 3. Power BI – HR Analytics Dashboard
@@ -264,9 +256,6 @@ The Power BI analysis focuses on:
 - Data Visualization
 - Interactive Dashboard Development
 
-## Power BI Project File
-
-[Download Power BI HR Analytics Workbook](./PowerBI_HR_Analytics_Project.pbix)
 
 ---
 
@@ -337,10 +326,6 @@ The Tableau analysis focuses on:
 - Dashboard Development
 - KPI Reporting
 - Interactive Analytics
-
-## Tableau Project File
-
-[Download Tableau HR Analytics Dashboard](./Tableau_HR_Analytics_Dashboard.twbx)
 
 ---
 
