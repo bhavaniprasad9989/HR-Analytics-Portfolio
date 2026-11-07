@@ -52,7 +52,7 @@ SQL was used to query, organize, and analyze employee records. The analysis incl
 
 ## Project Files
 
-- `HR_Analytics.sql` – SQL queries used for data analysis.
+[Download SQL HR Analytics Workbook](./SQL_HR_Analytics.sql)
 
 ## Key Takeaways
 
