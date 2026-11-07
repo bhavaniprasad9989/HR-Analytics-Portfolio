@@ -107,7 +107,7 @@ The Power BI dashboard focuses on the following HR metrics:
 
 ## Project File
 
-`PowerBI_HR_Analytics.pbix` – Power BI report containing the HR data model, measures, and dashboard visualizations.
+`Power BI/PowerBI_HR_Analytics_Project.pbix` – Power BI report containing the HR data model, measures, and dashboard visualizations.
 
 ## Conclusion
 
