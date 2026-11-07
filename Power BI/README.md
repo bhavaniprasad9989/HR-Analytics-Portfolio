@@ -8,7 +8,7 @@ The dashboard presents HR metrics and visual analysis to help identify patterns 
 
 ## Project File
 
-`Tableau_HR_Analytics_Dashboard.twbx`
+Power BI/PowerBI_HR_Analytics_Project.pbix
 
 The packaged Tableau workbook (`.twbx`) contains the workbook and its packaged data extract.
 
