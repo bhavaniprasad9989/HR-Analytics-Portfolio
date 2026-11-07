@@ -1,103 +1,114 @@
-# HR Analytics – Tableau
+# HR Analytics – Power BI
 
 ## Project Overview
 
-This project uses Tableau to explore employee attrition, workforce demographics, compensation, employee satisfaction, and work-life balance.
+This project uses Microsoft Power BI to analyze employee data and identify workforce patterns, employee attrition trends, compensation levels, job satisfaction, and work-life balance.
 
-The dashboard presents HR metrics and visual analysis to help identify patterns across departments, job roles, age groups, income levels, and promotion history.
+The project uses HR employee data containing 50,000 employee records across two datasets. Power BI is used to prepare and model the data, calculate key performance indicators, and create interactive dashboards that provide meaningful insights into employee behavior and workforce performance.
 
-## Project File
+## Data Model Structure
 
-Power BI/PowerBI_HR_Analytics_Project.pbix
+The Power BI project uses the following HR data sources:
 
-The packaged Tableau workbook (`.twbx`) contains the workbook and its packaged data extract.
-
-## Dashboard Structure
-
-The workbook contains one main dashboard:
-
-- `Dashboard`
-
-It includes 11 worksheets used for HR analysis.
-
-## Worksheets and Analysis
-
-| Worksheet | Analysis |
+| Data Source | Description |
 |---|---|
-| Age vs attrition rate | Employee attrition across age groups. |
-| Attrition rate vs monthly income | Relationship between income levels and attrition. |
-| Avg Monthly Income | Average employee monthly income. |
-| Avg Satisfaction Rate | Employee satisfaction analysis. |
-| Avg hourly rate male | Average hourly rate for male employees. |
-| Avg working years | Average employee working experience. |
-| Dept wise avg attrition | Attrition rate across departments. |
-| Job role vs work life balance | Work-life balance across job roles. |
-| Job satisfaction rate | Employee job satisfaction analysis. |
-| Total employees | Total employee count. |
-| Years since last promotion | Attrition analysis across promotion-history groups. |
+| `HR_data_01` | Employee demographics, attrition, department, education, job role, satisfaction, and hourly rate. |
+| `HR_data_02` | Employee income, overtime, performance, working years, work-life balance, and promotion history. |
 
-## Key HR Metrics
+The employee identifier is used to connect employee information across the two datasets.
 
-The project focuses on the following metrics:
+## Data Preparation
+
+- Imported HR employee datasets into Power BI.
+- Prepared and organized employee data for analysis.
+- Connected employee information using employee identifiers.
+- Created appropriate data relationships.
+- Reviewed column data types and data quality.
+- Prepared categorical fields for workforce segmentation.
+- Developed calculated fields and measures for HR reporting.
+
+## Key Performance Indicators
+
+The Power BI dashboard focuses on the following HR metrics:
 
 - Total Employees
+- Total Attrition
+- Active Employees
 - Attrition Rate
 - Average Monthly Income
-- Average Satisfaction
 - Average Hourly Rate
 - Average Working Years
+- Average Work-Life Balance
 
-## Calculated Field
+## Analysis Performed
 
-The workbook includes an attrition-rate calculated field:
+### 1. Attrition Analysis
 
-```tableau
-AVG(
-    IF [Attrition] = "Yes" THEN 1
-    ELSE 0
-    END
-)
-```
+- Employee attrition distribution by gender.
+- Attrition rate by department.
+- Attrition rate by age group.
+- Attrition rate by job role.
+- Identification of employee attrition patterns.
 
-This converts each employee's attrition status into a numeric indicator and calculates the average. Format the result as a percentage when displaying it as an attrition rate.
+### 2. Compensation Analysis
+
+- Average monthly income analysis.
+- Attrition rate across different income bands.
+- Average hourly rate analysis.
+- Compensation-based employee segmentation.
+
+### 3. Employee Experience Analysis
+
+- Work-life balance across job roles.
+- Average working years by department.
+- Employee satisfaction analysis.
+- Workforce distribution across different employee categories.
+
+### 4. Promotion Analysis
+
+- Attrition rate by years since last promotion.
+- Employee promotion-history analysis.
+- Comparison of promotion groups and attrition patterns.
+
+## Tools and Power BI Features
+
+- Microsoft Power BI Desktop
+- Power Query
+- Data Cleaning and Transformation
+- Data Modeling
+- DAX Measures
+- Calculated Columns
+- KPI Cards
+- Interactive Charts and Visualizations
+- Slicers and Filters
+- Dashboard Design
 
 ## Key Business Questions
 
-- How does employee attrition vary across age groups?
-- How does attrition differ across monthly income levels?
-- Which departments experience higher attrition?
-- How does work-life balance vary by job role?
-- What is the average employee monthly income?
-- How do employee satisfaction levels compare?
-- How does time since the last promotion relate to attrition?
+- Which departments experience higher employee attrition?
+- How does attrition vary across different age groups and job roles?
+- Is employee attrition associated with monthly income levels?
+- How does work-life balance vary across job roles?
+- Does the time since the last promotion relate to employee attrition?
+- Which HR metrics provide insights into workforce performance?
 
-## Tools and Tableau Features
+## How to Use
 
-- Tableau Desktop
-- Packaged Tableau Workbook (`.twbx`)
-- Calculated Fields
-- Data Aggregation
-- Attrition Rate Analysis
-- Interactive Dashboard
-- Data Visualization
+1. Download the Power BI project file.
+2. Open the `.pbix` file using Microsoft Power BI Desktop.
+3. Review the data model and relationships.
+4. Explore the KPI cards and visualizations.
+5. Interact with available slicers and filters to analyze employee trends.
+6. Review the dashboard to understand workforce distribution and attrition patterns.
 
-## How to Open and Explore
+## Dashboard Preview
 
-1. Download `Tableau_HR_Analytics_Dashboard.twbx`.
-2. Open the file using Tableau Desktop.
-3. Open the `Dashboard` tab.
-4. Explore the individual worksheets to understand each analysis.
-5. Interact with available filters and dashboard controls.
-6. Hover over visual elements to inspect the available details.
+![HR Analytics Power BI Dashboard](images/PowerBI_Dashboard.png)
 
-## Recommendations for Further Validation
+## Project File
 
-- Confirm that the `Job role vs work life balance` worksheet displays the intended visualization.
-- Review the income analysis to ensure it compares attrition across meaningful income groups.
-- Check that the promotion analysis clearly displays promotion groups and attrition rates.
-- Confirm percentage formatting for attrition-rate calculations.
-- Verify dashboard filters and interactions in Tableau Desktop.
+`PowerBI_HR_Analytics.pbix` – Power BI report containing the HR data model, measures, and dashboard visualizations.
 
 ## Conclusion
 
-This Tableau project demonstrates how HR data can be transformed into visual insights. It helps explore employee attrition, compensation, satisfaction, departmental differences, and workforce experience to support data-driven HR decisions.
+This Power BI project demonstrates how employee data can be transformed into interactive business intelligence reports. Through data modeling, DAX calculations, and visual analytics, the dashboard helps identify employee attrition patterns, evaluate workforce distribution, and understand important HR performance indicators.
