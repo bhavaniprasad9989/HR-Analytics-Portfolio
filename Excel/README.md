@@ -92,7 +92,7 @@ The Excel analysis includes the following metrics:
 
 ## Dashboard Preview
 
-[Excel HR Analytics Dashboard](./HR Analytics Dashboard Overview.png)
+![Excel HR Analytics Dashboard](./HR%20Analytics%20Dashboard%20Overview.png)
 
 ## Conclusion
 
