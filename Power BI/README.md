@@ -103,7 +103,7 @@ The Power BI dashboard focuses on the following HR metrics:
 
 ## Dashboard Preview
 
-![HR Analytics Power BI Dashboard](Power BI HR Analytics Dashboard.png)
+![HR Analytics Power BI Dashboard](./Power%20BI%20HR%20Analytics%20Dashboard.png)
 
 ## Project File
 
