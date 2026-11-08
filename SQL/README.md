@@ -46,10 +46,6 @@ SQL was used to query, organize, and analyze employee records. The analysis incl
 - Income band analysis
 - Work-life balance analysis
 
-## SQL Analysis Preview
-
-![HR Analytics SQL Analysis](images/SQL_Analysis.png)
-
 ## Project Files
 
 [Download SQL HR Analytics Workbook](./SQL_HR_Analytics.sql)
