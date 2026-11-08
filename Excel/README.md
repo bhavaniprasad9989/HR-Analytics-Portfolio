@@ -90,6 +90,10 @@ The Excel analysis includes the following metrics:
 
 [Download Excel HR Analytics Workbook](./Excel_HR_Analytics_Final.xlsx)
 
+## Dashboard Preview
+
+![Excel HR Analytics Dashboard](./HR Analytics Dashboard Overview.png)
+
 ## Conclusion
 
 This Excel project demonstrates how employee data can be organized, categorized, and analyzed using PivotTables and KPI summaries. It helps identify workforce patterns and provides a foundation for deeper analysis using SQL and business intelligence tools.
